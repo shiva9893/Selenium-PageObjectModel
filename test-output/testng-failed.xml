@@ -6,6 +6,7 @@
       <class name="Tests.Tests">
         <methods>
           <include name="configWebDriver"/>
+          <include name="setup"/>
           <include name="loginTest"/>
           <include name="closeWebDriver"/>
         </methods>

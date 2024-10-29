@@ -3,3 +3,13 @@
 2024-09-22 11:50:11 INFO  Tests:34 - **** Entered UserName ****
 2024-09-22 11:50:11 INFO  Tests:36 - **** Entered Password ****
 2024-09-22 11:50:12 INFO  Tests:38 - **** Clicked on Login Button ****
+2024-10-28 17:59:04 INFO  Tests:41 - Browser Launched And Tying to Login
+2024-10-28 17:59:04 INFO  Tests:32 - **** Logging into Application ****
+2024-10-28 17:59:04 INFO  Tests:34 - **** Entered UserName ****
+2024-10-28 17:59:04 INFO  Tests:36 - **** Entered Password ****
+2024-10-28 17:59:07 INFO  Tests:38 - **** Clicked on Login Button ****
+2024-10-29 09:04:09 INFO  Tests:43 - Browser Launched And Tying to Login
+2024-10-29 09:04:09 INFO  Tests:32 - **** Logging into Application ****
+2024-10-29 09:04:10 INFO  Tests:34 - **** Entered UserName ****
+2024-10-29 09:04:10 INFO  Tests:36 - **** Entered Password ****
+2024-10-29 09:04:10 INFO  Tests:38 - **** Clicked on Login Button ****
