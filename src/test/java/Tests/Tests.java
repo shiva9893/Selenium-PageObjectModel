@@ -14,6 +14,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import com.github.javafaker.Faker;
@@ -32,10 +33,11 @@ public class Tests extends BaseClass {
 			
 	}
 	 
+	@Parameters("Browser")
 	@Test
-	public void loginTest()
+	public void loginTest(String browserName)
 	{
-		driver = launchBrowser();
+		driver = launchBrowser(browserName);
 		pageObject = new PageObject(driver);
 		
 		logger.info("Browser Launched And Tying to Login");
