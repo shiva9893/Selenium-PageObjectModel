@@ -36,6 +36,7 @@ public class PageObject extends BaseClass {
 			logger.info("**** Entered Password ****");
 			submitbutton.click();
 			logger.info("**** Clicked on Login Button ****");
+			logger.info("Test Passed");
 
 		} catch (Exception e) {
 			System.out.println(e);
